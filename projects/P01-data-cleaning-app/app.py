@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv('sales_data.csv')
+df = pd.read_csv(r'E:\DS-Contractor\microgigs\codon-analytics-streamlit-portfolio\projects\P01-data-cleaning-app\sales_data.csv')
 
 # Drop duplicates
 df = df.drop_duplicates()
